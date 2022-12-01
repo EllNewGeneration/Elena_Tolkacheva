@@ -10,55 +10,41 @@
       </caption>
       <tbody>
         <tr>
-
-
           <td>
             <b>Простая форма поиска с вариантами:</b>
             <FORM id="my_form" name="user_data" method="post" action="http://fe.it-academy.by/TestForm.php">
-              <!--        теги, формирующие элементы управления         -->
               <FIELDSET>
                 <LEGEND>Строка поиска</LEGEND>
-                <input type="text" name="what_to_look_for" maxlength="10" >
+                <input type="text" name="what_to_look_for" maxlength="10">
                 <input type="submit" value="Искать">
                 <br>
                 <label>
-                  <input type="radio" name="where_to_look_for" value="at_site" id="Checkbox_Group1_0" > на сайте </label>
+                  <input type="radio" name="where_to_look_for" value="at_site" id="Checkbox_Group1_0"> на сайте </label>
                 <label>
                   <input type="radio" name="where_to_look_for" value="at_google" id="Checkbox_Group2_0"> в google </label>
-                 <br>
-                    <i>Длина запроса не более 10 символов</i>
-                 
-                </FIELDSET>
+                <br>
+                <i>Длина запроса не более 10 символов</i>
+              </FIELDSET>
             </FORM>
           </td>
-
           <td>
             <b>Простая форма поиска с вариантами:</b>
-                <form>
-                    <!--        теги, формирующие элементы управления         -->
+            <form>
               <FIELDSET>
                 <LEGEND>Строка поиска</LEGEND>
                 <input type="text" name="what_to_look_for" autofocus>
                 <input type="submit" value="Искать">
                 <br>
                 <label>
-                  <input type="radio" name="where_to_look_for" value="at_site" id="Checkbox_Group1_0" > на сайте </label>
+                  <input type="radio" name="where_to_look_for" value="at_site" id="Checkbox_Group1_0"> на сайте </label>
                 <label>
                   <input type="radio" name="where_to_look_for" value="at_google" id="Checkbox_Group2_0"> в google </label>
-                 <br>
-                    <i>Автофокус в поле поиска</i>
-                 
-                </FIELDSET>
-
-
-                </form>
-
-
+                <br>
+                <i>Автофокус в поле поиска</i>
+              </FIELDSET>
+            </form>
           </td>
         </tr>
-
-
-
         <tr>
           <td>
             <b>Простая форма авторизации:</b>
@@ -66,9 +52,7 @@
               <FIELDSET>
                 <LEGEND>Авторизируйтесь</LEGEND>
                 <INPUT TYPE="text" ID="login" NAME="login" SIZE="25" required>
-                <!--Проверить-->
                 <label for="login"> * Логин </label>
-          
                 <br>
                 <INPUT TYPE="password" ID="passwd" NAME="password" SIZE="25" required>
                 <LABEL FOR="passwd"> * Пароль</LABEL>
@@ -78,59 +62,36 @@
                 <br>
                 <input type="submit" value="Войти">
                 <br>
-                  <i>* - обязательное поле </i>
-          
+                <i>* - обязательное поле </i>
               </FIELDSET>
             </FORM>
           </td>
-
-
           <td>
             <b>Опрос(голосование):</b>
-             
             <FORM id="my_form" name="user_data" method="post" action="http://fe.it-academy.by/TestForm.php">
-                  <!--        теги, формирующие элементы управления         -->
-            <FIELDSET>
-              <LEGEND>Как вам?</LEGEND>
-              
-              <label>
-                <input type="radio" name="kak_dela[]" value="bad" > ничего </label>
+              <FIELDSET>
+                <LEGEND>Как вам?</LEGEND>
+                <label>
+                  <input type="radio" name="kak_dela[]" value="bad"> ничего </label>
                 <br>
                 <label>
-                <input type="radio" name="kak_dela[]" value="not_bad" > неплохо </label>
-               <br>
-               <label>
-                <input type="radio" name="kak_dela[]" value="good"> хорошо 
-              </label>
-               <br>
-            
-               <label>
-                <input type="radio" name="kak_dela[]" value="the_best"> супер  </label>
-               <br>
-               
-               <input type="hidden"name="date_voite", value="2013.12.31">
-               <br>
-               <input type="submit" value="Отправить">
-               <br>
-                  <i>Есть скрытое поле <br>
-                    name=date_voite, value="2013.12.31"</i>
-               
+                  <input type="radio" name="kak_dela[]" value="not_bad"> неплохо </label>
+                <br>
+                <label>
+                  <input type="radio" name="kak_dela[]" value="good"> хорошо </label>
+                <br>
+                <label>
+                  <input type="radio" name="kak_dela[]" value="the_best"> супер </label>
+                <br>
+                <input type="hidden" name="date_voite" , value="2013.12.31">
+                <br>
+                <input type="submit" value="Отправить">
+                <br>
+                <i>Есть скрытое поле <br> name=date_voite, value="2013.12.31" </i>
               </FIELDSET>
-
-
-              </form>
-
-
-          
-
-
-
+            </form>
           </td>
-
         </tr>
-
-
-
         <tr>
           <td>
             <b>Отзыв:</b>
@@ -138,10 +99,8 @@
               <FIELDSET>
                 <LEGEND>Оставьте Ваш отзыв</LEGEND>
                 <INPUT TYPE="text" ID="login" NAME="login" SIZE="25" required>
-                <!--Проверить-->
                 <label for="login"> * Имя </label>
                 <br>
-  
                 <INPUT TYPE="email" ID="email" NAME="email_for_feedback" SIZE="25" required>
                 <LABEL FOR="email"> * e-mail </LABEL>
                 <br>
@@ -154,111 +113,78 @@
               </FIELDSET>
             </FORM>
           </td>
-
-
           <td>
             <b>Выпадающий и мульти списки:</b>
-
-
             <FORM id="my_form" name="user_data" method="post" action="http://fe.it-academy.by/TestForm.php">
-              <!--        теги, формирующие элементы управления         -->
-        <FIELDSET>
-          <LEGEND>Города РБ</LEGEND>
-          
-          <select name="list_cities" id="list">
-            <optgroup label="Города РБ">
-              <option value="1">Брест</option>
-              <option value="2">Минск</option>
-              <option value="3">Витебск</option>
-            </optgroup>
-            <optgroup label="Города России">
-              <option value="4">Москва</option>
-              <option value="5">Рязань</option>
-              <option value="6">Магадан</option>
-            </optgroup>
-          </select>
-           
-          <select name="list_cities" id="list" multiple size="8">
-            <optgroup label="Города РБ">
-              <option value="1">Брест</option>
-              <option value="2">Минск</option>
-              <option value="3">Витебск</option>
-            </optgroup>
-            <optgroup label="Города России">
-              <option value="4">Москва</option>
-              <option value="5">Рязань</option>
-              <option value="6">Магадан</option>
-            </optgroup>
-          </select>
-          <input type="submit" value="Ок">
-
-          </FIELDSET>
-
-
-          </form>
-
-
-
-
+              <FIELDSET>
+                <LEGEND>Города РБ</LEGEND>
+                <select name="list_cities" id="list">
+                  <optgroup label="Города РБ">
+                    <option value="1">Брест</option>
+                    <option value="2">Минск</option>
+                    <option value="3">Витебск</option>
+                  </optgroup>
+                  <optgroup label="Города России">
+                    <option value="4">Москва</option>
+                    <option value="5">Рязань</option>
+                    <option value="6">Магадан</option>
+                  </optgroup>
+                </select>
+                <select name="list_cities" id="list" multiple size="8">
+                  <optgroup label="Города РБ">
+                    <option value="1">Брест</option>
+                    <option value="2">Минск</option>
+                    <option value="3">Витебск</option>
+                  </optgroup>
+                  <optgroup label="Города России">
+                    <option value="4">Москва</option>
+                    <option value="5">Рязань</option>
+                    <option value="6">Магадан</option>
+                  </optgroup>
+                </select>
+                <input type="submit" value="Ок">
+              </FIELDSET>
+            </form>
           </td>
         </tr>
-
-
-
         <tr>
           <td>
             <b>Загрузка файла на сервер:</b>
             <FORM id="my_form" name="user_data" method="post" enctype="multipart/form-data" action="http://fe.it-academy.by/TestForm.php">
               <FIELDSET>
                 <LEGEND>Upload</LEGEND>
-                  
-                    <small>Файл:</small>
-                    <br>
-                    <input type="file" name="file_Field[]" id="file_Field" multiple>
-                    <br>
-                    <small>Срок хранения (года):</small>
-                    <br>
-                    <INPUT TYPE="text" ID="storage_period" NAME="storage_period" pattern="[0-9]{1,5}">
-                    <input type="submit" value="загрузить">
-                    <br>
-                    <i>Метод Post </i>
-                    <br>
-                    <i> В теге form используйте атрибут </i>
-                    <br>
-                    <i> enctype="multipart/form-data" для отправки </i>
-                    <br>
-                    <i> файла на сервер</i>
-                   
-                  </FIELDSET>
-            </FORM>    
+                <small>Файл:</small>
+                <br>
+                <input type="file" name="file_Field[]" id="file_Field" multiple>
+                <br>
+                <small>Срок хранения (года):</small>
+                <br>
+                <INPUT TYPE="text" ID="storage_period" NAME="storage_period" pattern="[0-9]{1,5}">
+                <input type="submit" value="загрузить">
+                <br>
+                <i>Метод Post </i>
+                <br>
+                <i> В теге form используйте атрибут </i>
+                <br>
+                <i> enctype="multipart/form-data" для отправки </i>
+                <br>
+                <i> файла на сервер</i>
+              </FIELDSET>
+            </FORM>
           </td>
-
-
           <td>
             <b>Валидация данных HTML5:</b>
-
             <FORM id="my_form" name="user_data" method="post" action="http://fe.it-academy.by/TestForm.php">
-              <!--        теги, формирующие элементы управления         -->
               <FIELDSET>
                 <LEGEND>Строка поиска</LEGEND>
                 <input type="text" name="what_to_look_for" placeholder="Только русские буквы" pattern="[А-Яа-я]{}">
-           
-                
-                 <br>
-                    <i>Телефонный номер в формате <br>
-                      +ХХХ-ХХ-ХХХХХХХ, где Х - любое число</i>
-                     
-                      <br>
-      
-                      <input type="tel" name="what_to_look_for_PHONE_NUM" id="nmbr" pattern="[0-9+]{4}-[0-9]{2}-[0-9]{7}" placeholder="+375-29-1234567">
-                   
-                    <input type="submit" value="Проверить">
-
-
-                </FIELDSET>
+                <br>
+                <i>Телефонный номер в формате <br> +ХХХ-ХХ-ХХХХХХХ, где Х - любое число </i>
+                <br>
+                <input type="tel" name="what_to_look_for_PHONE_NUM" id="nmbr" pattern="[0-9+]{4}-[0-9]{2}-[0-9]{7}" placeholder="+375-29-1234567">
+                <input type="submit" value="Проверить">
+              </FIELDSET>
             </FORM>
-
-            
           </td>
         </tr>
       </tbody>
