@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="vieewport" content="width=device-width, initial-scale=1">
+    <title>Адаптивная навигация</title>
+    <style>
+      .list>div {
+        width: 150px;
+        float: left;
+      }
+
+      .list>div {
+        background-color: rgb(140, 135, 129);
+        border: groove rgb(13, 13, 14) 3px;
+        cursor: pointer;
+        position: relative;
+      }
+
+      .food {
+        width: 150px;
+        display: none;
+      }
+
+      .list>div:hover div.food {
+        display: block;
+        position: absolute;
+        z-index: 1;
+      }
+
+      .food>div {
+        background-color: rgb(194, 194, 185);
+        border: groove rgb(rgb(20, 20, 23) 3px;
+            cursor: pointer;
+        }
+    </style>
+
+  </head>
+
+  <body>
+    <div class="list">
+      <div>Понедельник</div>
+      <div>Вторник</div>
+      <div>Среда</div>
+      <div>Четверг</div>
+      <div>Пятница</div>
+      <div>Суббота</div>
+
+      <div class="food">
+    
+        <div>Завтрак</div>
+        <div>Обед</div>
+        <div>Ужин</div>
+    </div>
+        
+      
+      
+  </body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Blocks</title>
+    <style>
+      .substrate {
+        background-color: beige;
+      }
+
+      .navig {
+        width: 15em;
+        background-color: lightgreen;
+        float: left;
+      }
+
+      .boxs {
+        flex-grow: 1;
+        margin-left: 15em;
+      }
+
+      .article {
+        background-color: aquamarine;
+        margin-bottom: .2em;
+        margin-top: -.8em;
+      }
+
+      .for_picture {
+        float: right;
+      }
+
+      .footer {
+        background-color: plum;
+      }
+
+      .enter {
+        clear: both;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="substrate">
+      <div class="navig">
+        <h3>Блок навигации</h3>
+        <ul>
+          <li>Ширина 15em</li>
+          <li>Должен присутсвовать цвет фона</li>
+          <li>Располагается слева</li>
+          <li>Блок навигации наполните контентом достаточным, чтобы по высоте он начинал захватывать вторую статью, как показано в данном примере</li>
+        </ul>
+      </div>
+      <div class="boxs">
+        <div class="article">
+          <h3>Статья1</h3> Размер блока: Занимает всю доступную ширину. Должен присутсвовать цвет фона. Во всех статьях сделайте отступ снизу от соседней равным .2em, при помощи свойтсва margin-bottom
+        </div>
+        <div class="article">
+          <h3> Статья2</h3> Размер блока: Занимает всю доступную ширину. Должен присутсвовать цвет фона. Во всех статьях сделайте отступ снизу от соседней равным .2em, при помощи свойтсва margin-bottom. Картинка вставлена при помощи тега, плавание организовано по правому краю внутри данной статьи для этой картинки. 
+          <img class="for_picture" src="icon_m.png">
+          <div class="enter"></div>
+        </div>
+      </div>
+      <div class="footer">Нижний блок, подвал. Занимает всю доступную ширину. Высота определяется помещенным внутрь контейнером. </div>
+    </div>
+  </body>
+</html>
