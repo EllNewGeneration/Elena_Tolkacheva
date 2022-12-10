@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="vieewport" content="width=device-width, initial-scale=1">
+    <title>Адаптивная навигация</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      .list1>div {
+        width: 150px;
+        float: left;
+        cursor: pointer;
+        display: none;
+        border: groove rgb(13, 13, 14) 1px;
+        border-radius: 3px;
+      }
+
+      .list1>div {
+        background-color: #b7b5b3;
+        display: block;
+      }
+
+      .meal {
+        width: 150px;
+        display: none;
+      }
+
+      .meal>div {
+        /* width: 150px; */
+        display: block;
+      }
+
+      .list1>:hover .meal {
+  
+        background-color: rgb(33, 187, 120);
+       
+        display: block;
+      }
+
+      .meal>:hover {
+        background-color: rgba(36, 36, 35, 0.389);
+        display: block;
+      }
+
+      @media all and (max-width:940px) {
+        .list1>div {
+          float: none;
+        }
+
+        .list1>:hover .meal {
+          
+          background-color: rgba(29, 164, 222, 0.893);
+        
+          display: inline-block;
+          left: 100%;
+          top: 0%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="list1">
+      <div class="Mo">Понедельник <div class="meal">
+          <div>Завтрак</div>
+          <div>Обед</div>
+          <div>Ужин</div>
+        </div>
+      </div>
+      <div class="Tu">Вторник <div class="meal">
+          <div>Завтрак</div>
+          <div>Обед</div>
+          <div>Ужин</div>
+        </div>
+      </div>
+      <div class="We">Среда <div class="meal">
+          <div>Завтрак</div>
+          <div>Обед</div>
+          <div>Ужин</div>
+        </div>
+      </div>
+      <div class="Th">Четверг <div class="meal">
+          <div>Завтрак</div>
+          <div>Обед</div>
+          <div>Ужин</div>
+        </div>
+      </div>
+      <div class="Fr">Пятница <div class="meal">
+          <div>Завтрак</div>
+          <div>Обед</div>
+          <div>Ужин</div>
+        </div>
+      </div>
+      <div class="Sa">Суббота <div class="meal">
+          <div>Завтрак</div>
+          <div>Обед</div>
+          <div>Ужин</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
