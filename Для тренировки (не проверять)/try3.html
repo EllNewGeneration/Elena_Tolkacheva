@@ -9,8 +9,8 @@
         margin: 0;
         padding: 0;
         box-sizing: border-box;
-      }
-
+        
+}
       .list1>div {
         width: 150px;
         float: left;
@@ -18,21 +18,26 @@
         display: none;
         border: groove rgb(13, 13, 14) 1px;
         border-radius: 3px;
+        opacity: 1;
+        background-color: #b7b5b3;
       }
 
-      .list1>div {
-        background-color: #b7b5b3;
+       .list1>div {
         display: block;
-      }
+    
+      } 
 
       .meal {
         width: 150px;
-        display: none;
+        display: none; 
       }
 
       .meal>div {
         /* width: 150px; */
         display: block;
+        
+  
+  transition: height 0.8s, opacity 0.5s;
       }
 
       .list1>:hover .meal {
@@ -40,11 +45,13 @@
         background-color: rgb(33, 187, 120);
        
         display: block;
+       
       }
 
       .meal>:hover {
         background-color: rgba(36, 36, 35, 0.389);
         display: block;
+        opacity: 1;
       }
 
       @media all and (max-width:940px) {

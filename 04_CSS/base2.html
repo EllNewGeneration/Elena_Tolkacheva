@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>А</title>
+    <style>
+      TABLE {
+        margin: auto;
+        caption-side: bottom;
+        border-collapse: collapse;
+        /* Убираем двойные линии между ячейками */
+      }
+
+      TD,
+      TH {
+        padding: 1px;
+        /* Поля вокруг содержимого таблицы */
+        border-style: dotted;
+        border-color: #c4c8c8;
+      }
+
+      TH {
+        background: #969e9e;
+        /* Цвет фона */
+      }
+
+      TR.even {
+        background: #dde4e4;
+      }
+
+      tr:hover {
+        background-color: lightpink;
+        /* Цвет фона при наведении*/
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <caption>ДАННЫЕ О СОТРУДНИКАХ</caption>
+      <tbody>
+        <tr>
+          <th>ФИО</th>
+          <th>пол</th>
+          <th>должность</th>
+          <th>дата рож.</th>
+          <th>Данные 01</th>
+          <th>Данные 02</th>
+        </tr>
+        <tr>
+          <td>Иванов Иван Иванович</td>
+          <td>М</td>
+          <td>начальник</td>
+          <td>01.01.1960</td>
+          <td>4567</td>
+          <td>3453</td>
+        </tr>
+        <tr class="even">
+          <td>Петрова Иллона Петровна</td>
+          <td>Ж</td>
+          <td>секретарь</td>
+          <td>01.01.1989</td>
+          <td>98795</td>
+          <td>46523</td>
+        </tr>
+        <tr>
+          <td>Сидоров Илья Игоревич</td>
+          <td>М</td>
+          <td>бухгалтер</td>
+          <td>01.01.1979</td>
+          <td>743434</td>
+          <td>987979</td>
+        </tr>
+        <tr class="even">
+          <td>Пупин Федор Федорович</td>
+          <td>М</td>
+          <td>водитель</td>
+          <td>01.01.1963</td>
+          <td>651546156</td>
+          <td>5454</td>
+        </tr>
+        <tr>
+          <td>Крупин Сергей Иванович</td>
+          <td>М</td>
+          <td>водитель2</td>
+          <td>01.01.1960</td>
+          <td>4567</td>
+          <td>3453</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
